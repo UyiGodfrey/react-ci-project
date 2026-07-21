@@ -1,16 +1,71 @@
-# React + Vite
+# React CI Pipeline 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application integrated with a Continuous Integration (CI) pipeline using GitHub Actions.
 
-Currently, two official plugins are available:
+This project demonstrates how a frontend application can be automatically validated through code quality checks, automated testing, and production build verification whenever changes are pushed to the repository.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal of this project is to implement a reliable CI workflow for a React application.
 
-## Expanding the ESLint configuration
+The pipeline automatically performs:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Dependency installation
+- Code quality validation
+- Automated testing
+- Production build verification
+
+This helps detect errors early before changes are merged or deployed.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- Vite
+- JavaScript
+
+### Testing
+- Vitest
+- React Testing Library
+
+### Code Quality
+- ESLint
+
+### CI/CD
+- GitHub Actions
+
+### Version Control
+- Git & GitHub
+
+---
+
+## ⚙️ CI/CD Pipeline Workflow
+
+
+---
+
+## ✨ Features
+
+- React frontend application
+- Automated testing with Vitest
+- Code quality checks with ESLint
+- Automated CI workflow using GitHub Actions
+- Production build validation
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## 🚀 Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/UyiGodfrey/react-ci-project.git
